@@ -10,7 +10,7 @@ export class AlertComponent implements OnInit, OnDestroy {
     private scheduleDetectChanges() {
       setTimeout(() => this.cdr.detectChanges());
     }
-    @Input() id = 'defeult-alert';
+    @Input() id = 'default-alert';
     @Input() fade = true;
 
     alerts: Alert[] = [];
